@@ -3,5 +3,12 @@
   "dest": "../../dist/josephsieang-ngx-spinner",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    {
+      "glob": "**/*",
+      "input": "./node_modules/ngx-spinner/animations",
+      "output": "./animations"
+    }
+  ]
 }
