@@ -14,6 +14,7 @@ specifiers:
   '@angular/router': ^15.0.0
   '@types/jasmine': ~4.3.0
   jasmine-core: ~4.5.0
+  josephsieang-ngx-spinner: 0.0.0-watch
   karma: ~6.4.0
   karma-chrome-launcher: ~3.1.0
   karma-coverage: ~2.2.0
@@ -34,6 +35,7 @@ dependencies:
   '@angular/platform-browser': 15.0.4_bwwplqn6fknm3semymfqlvw5bm
   '@angular/platform-browser-dynamic': 15.0.4_hnn6v3m7xpfwy5wugozvutqsyi
   '@angular/router': 15.0.4_6qoe6dvkj2mvffppuvjrhovg7y
+  josephsieang-ngx-spinner: 0.0.0-watch_wcjhsjedbutghxn65tv34lliyq
   rxjs: 7.5.7
   tslib: 2.4.1
   zone.js: 0.12.0
@@ -4578,6 +4580,17 @@ packages:
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
+
+  /josephsieang-ngx-spinner/0.0.0-watch_wcjhsjedbutghxn65tv34lliyq:
+    resolution: {integrity: sha512-Nxnc2i+gLPYRGKRU12Bs4NZjM6vo4vDykgA0GUx4bM8AAmr7vqOdnVyQ+0gLVdiEPnDct8xqBe5dcs86xGb5Xw==}
+    peerDependencies:
+      '@angular/common': ^15.0.0
+      '@angular/core': ^15.0.0
+    dependencies:
+      '@angular/common': 15.0.4_35fj7bqlhadjjbsew5x5pstq4q
+      '@angular/core': 15.0.4_rxjs@7.5.7+zone.js@0.12.0
+      tslib: 2.4.1
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
