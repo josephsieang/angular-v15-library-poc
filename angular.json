@@ -31,10 +31,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "tsConfig": "projects/josephsieang-ngx-spinner/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
       }
@@ -56,9 +53,7 @@
             "outputPath": "dist/showcase",
             "index": "projects/showcase/src/index.html",
             "main": "projects/showcase/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/showcase/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -66,7 +61,8 @@
               "projects/showcase/src/assets"
             ],
             "styles": [
-              "projects/showcase/src/styles.scss"
+              "projects/showcase/src/styles.scss",
+              "node_modules/josephsieang-ngx-spinner/animations/ball-scale.css"
             ],
             "scripts": []
           },
@@ -118,10 +114,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/showcase/tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -129,7 +122,8 @@
               "projects/showcase/src/assets"
             ],
             "styles": [
-              "projects/showcase/src/styles.scss"
+              "projects/showcase/src/styles.scss",
+              "node_modules/josephsieang-ngx-spinner/animations/ball-scale.css"
             ],
             "scripts": []
           }
