@@ -14,13 +14,14 @@ specifiers:
   '@angular/router': ^15.0.0
   '@types/jasmine': ~4.3.0
   jasmine-core: ~4.5.0
-  josephsieang-ngx-spinner: 0.0.0-watch
+  josephsieang-ngx-spinner: 0.1.1
   karma: ~6.4.0
   karma-chrome-launcher: ~3.1.0
   karma-coverage: ~2.2.0
   karma-jasmine: ~5.1.0
   karma-jasmine-html-reporter: ~2.0.0
   ng-packagr: ^15.0.0
+  ngx-spinner: ^15.0.1
   rxjs: ~7.5.0
   tslib: ^2.3.0
   typescript: ~4.8.2
@@ -35,7 +36,8 @@ dependencies:
   '@angular/platform-browser': 15.0.4_bwwplqn6fknm3semymfqlvw5bm
   '@angular/platform-browser-dynamic': 15.0.4_hnn6v3m7xpfwy5wugozvutqsyi
   '@angular/router': 15.0.4_6qoe6dvkj2mvffppuvjrhovg7y
-  josephsieang-ngx-spinner: 0.0.0-watch_wcjhsjedbutghxn65tv34lliyq
+  josephsieang-ngx-spinner: 0.1.1_3dbw5uulq4kfy6erts53c2o5xa
+  ngx-spinner: 15.0.1_wcjhsjedbutghxn65tv34lliyq
   rxjs: 7.5.7
   tslib: 2.4.1
   zone.js: 0.12.0
@@ -4581,14 +4583,16 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /josephsieang-ngx-spinner/0.0.0-watch_wcjhsjedbutghxn65tv34lliyq:
-    resolution: {integrity: sha512-Nxnc2i+gLPYRGKRU12Bs4NZjM6vo4vDykgA0GUx4bM8AAmr7vqOdnVyQ+0gLVdiEPnDct8xqBe5dcs86xGb5Xw==}
+  /josephsieang-ngx-spinner/0.1.1_3dbw5uulq4kfy6erts53c2o5xa:
+    resolution: {integrity: sha512-2xeTCialm+DQUOBz6f6hmqAWZWbU+MEqFIrjeLEqGRiZt4ktWMSQlGM2Aloqvsrsy8pB6+R2MAEWALNaVbyF4w==}
     peerDependencies:
       '@angular/common': ^15.0.0
       '@angular/core': ^15.0.0
+      ngx-spinner: ^15.0.1
     dependencies:
       '@angular/common': 15.0.4_35fj7bqlhadjjbsew5x5pstq4q
       '@angular/core': 15.0.4_rxjs@7.5.7+zone.js@0.12.0
+      ngx-spinner: 15.0.1_wcjhsjedbutghxn65tv34lliyq
       tslib: 2.4.1
     dev: false
 
@@ -5251,6 +5255,17 @@ packages:
       - bluebird
       - supports-color
     dev: true
+
+  /ngx-spinner/15.0.1_wcjhsjedbutghxn65tv34lliyq:
+    resolution: {integrity: sha512-7DjETmBpuXTwI68ad1xMKpwt4Cyz1eyu8E7AJcFiKa+8JAnbo0k1qfvWur0aemncRNxDxHoyl6jw42MsnE/B+g==}
+    peerDependencies:
+      '@angular/common': ^15.0.0
+      '@angular/core': ^15.0.0
+    dependencies:
+      '@angular/common': 15.0.4_35fj7bqlhadjjbsew5x5pstq4q
+      '@angular/core': 15.0.4_rxjs@7.5.7+zone.js@0.12.0
+      tslib: 2.4.1
+    dev: false
 
   /nice-napi/1.0.2:
     resolution: {integrity: sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==}
