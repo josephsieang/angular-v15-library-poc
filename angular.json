@@ -62,7 +62,7 @@
             ],
             "styles": [
               "projects/showcase/src/styles.scss",
-              "node_modules/josephsieang-ngx-spinner/animations/ball-scale.css"
+              "node_modules/ngx-spinner/animations/ball-scale.css"
             ],
             "scripts": []
           },
@@ -123,7 +123,7 @@
             ],
             "styles": [
               "projects/showcase/src/styles.scss",
-              "node_modules/josephsieang-ngx-spinner/animations/ball-scale.css"
+              "node_modules/ngx-spinner/animations/ball-scale.css"
             ],
             "scripts": []
           }
