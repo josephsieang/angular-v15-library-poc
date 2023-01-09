@@ -1,6 +1,10 @@
 # JosephsieangNgxSpinner
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+- Please take a look into `projects/showcase` for the usage of this library wrapper of ngx-spinner.
+- Create this library wrapper so that our team can reuse this component quickly in each component.
+  - This library has setup the loader styles that always the same across multiple projects.
+  - We still have the flexibility to let developer can modify loader styles with input properties.
 
 ## Development server
 

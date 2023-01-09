@@ -1,0 +1,15 @@
+{
+  "name": "josephsieang-ngx-spinner",
+  "version": "0.1.1",
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "ngx-spinner": "^15.0.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "ngx-spinner": "^15.0.1"
+  }
+}
